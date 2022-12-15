@@ -4,6 +4,9 @@
     font-family: 'Roboto', sans-serif;
 
 }
+.body p{
+    color: #747474;
+}
 .mainheader{
     height: 70px;
     width: 100%;
@@ -21,6 +24,16 @@
 }
 .mainnav li{
     display: inline-block;
+}
+.themain a {
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    padding: 0 0.6em;
+}
+.themain .current a {
+    color: #00b39b;
+
 }
 .logo {
     display: block;
@@ -52,6 +65,8 @@ h1 {
 }
 .col-3 {
     width: 33%;
+    padding: 10px;
+    min-height: 1px;
 }
 .grid{
     display: flex;
@@ -63,6 +78,7 @@ h1 {
     overflow: hidden;
     height: 345px;
     justify-content: space-between;
+    padding: 10px;
 }
 .services h1 {
     color: #fff;
@@ -87,6 +103,8 @@ h1 {
     height: 345px;
     justify-content: space-between;
     float: left;
+    padding: 10px;
+    
 }
 .forclinics {
     width: 100%;
@@ -96,6 +114,7 @@ h1 {
     height: 345px;
     justify-content: space-between;
     float: right;
+    padding: 10px;
 }
 .brands h1 {
     float: left;
@@ -104,11 +123,129 @@ h1 {
     margin: 0.25em 0 0.35em;
 }
 .stats {
-
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 0.625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    background-image: url(https://www.docplanner.com/img/logo.png);
+    background-repeat: no-repeat;
+    background-position-y: 160%;
+    background-position-x: 30px;
+    
+    
+}
+header {
+    justify-self: center;
+}
+.statsheader {
+    text-align: center;
 }
 .statsheader p{
+    text-align: center;
     max-width: 415px;
     font-size: .875em;
     font-weight: 400;
     line-height: 1.7142857143;
+}
+.col-4 {
+    padding: 10px;
+    width: 50%;
+}
+.items {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+}
+.items h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+}
+.items p {
+    margin: 0;
+}
+.col-5 {
+    display: grid;
+}
+ {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+}
+footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+ {
+    
+
+}
+.grid2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  
+}
+.tic1 {
+    grid-column: 1/2;
+    grid-row: 2/8;
+
+}
+.tic2 {
+    grid-column: 2/-1;
+    grid-row: 1/7;
+
+}
+.tic3{
+    grid-column: 1/2;
+    grid-row: 8/-1;
+    
+
+}
+.tic4{
+    grid-column: 2/-1;
+    grid-row: 7/-1;
+    
+
+}
+.offices__header{
+    font-size: 0.875em;
+    text-align: center;
+}
+.offices__header p{
+    font-size: .875em;
+    text-align: center;
 }
